@@ -19,14 +19,14 @@ switch (servicio) {
 
     case 2:
         servicio = 2800
-        alert(`El monto a pagar del agua potable es: ${servicio}`)
+        alert(`El monto a pagar del agua potable sin itbis es: ${servicio}`)
         total_final = servicio * itbis + servicio
         alert(`El costo total del servicio con itbis incluido es: ${total_final}`)
     break
 
     case 3:
         servicio = 3600
-        alert(`El monto a pagar del cable y telefono es: ${servicio}`)
+        alert(`El monto a pagar del cable y telefono sin itbis es: ${servicio}`)
         total_final = servicio * itbis + servicio
         alert(`El costo total del servicio con itbis incluido es: ${total_final}`)
     break
